@@ -7,5 +7,5 @@ app.get('/', function (req, res) {
  
 var port = process.env.PORT || 3000;
 app.listen(port, function () {
-  console.log("server started");
+  console.log("The server started");
 });
